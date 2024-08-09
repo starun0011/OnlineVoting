@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select,
+input[type="submit"],
+#file
+{
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.388);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 0px 20px 0px 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.2);
+}
+#file{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 70px;
+    padding: 5px 0px 5px 15px;
+    font-size: 14px;
+    color:#7c7e83 ;
+    margin-top: 20px;
+    
+}
+input[type="submit"] {
+    background-color: #1A73E8;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+}
